@@ -4,28 +4,29 @@ Assignment
 
 # P5.js Assignment 2 - Collector Card
 
-## Your job is to create a:
-- Sports card - or a sports-style card using actors, your favorite band/singer, etc.
-- Game card 
+## Your job is to create one of the following:
+- Sports card -or- a playing card using actors, your favorite band/singer, etc.
+- Game card (pokemon, magic the Gathering, dnd)
 - ID Card 
 - A $21 bill for Hobbslandia
 
 ## Set Up
 Create a new P5.js file and name the file 10.1.6-assignment-Collector-Card
-If doing a traditional collector card, set your canvas size to: 400,600.  For other cards or topics, you can choose your own dimensions. 
+
+If doing a traditional collector card, set your canvas size to 400,600.  For other cards or topics, you can choose your dimensions. 
 
 
 # Marks 
 ## Base Requirements 50% - Your card must include the following:
 - A variable to store the name of your person/character.
-  - Every time you print that name, you must use the variable, rather than hard-coding in the text.  In other words, your text line should look like `text(nameVariable, 50, 50)` rather than `text(“Nugent-Hopkins”, 50,50)`
+  - Every time you display that name on the screen, you **must** use the variable, rather than hard-coding in the text.  In other words, your text line should look like `text(nameVariable, 50, 50)` rather than `text(“Nugent-Hopkins”, 50,50)`
 - a background colour
 - a rectangle to indicate the shape of the card
   - Use the ROUNDED corner rectangle for a more professional look.  [Click here](https://p5js.org/reference/#/p5/rect) to learn about rounded rectangles
 - THREE pictures
   - a picture of the person/character
-  - Other things such as a  team logo, super-power indicator, etc.
-- Two fonts plus at least 2 different sizes.  Text ideas could include:
+  - Other pictures such as a  team logo, super-power indicator, etc.
+- Two fonts plus at least 2 different sizes. Text ideas could include:
   - person’s name
   - facts or statistics
   - your company logo
